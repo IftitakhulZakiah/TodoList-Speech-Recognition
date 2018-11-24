@@ -11,7 +11,7 @@ I=7    W=Kamis
 I=8    W=Jumat               
 I=9    W=Sabtu               
 I=10   W=Minggu              
-I=11   W=JAM                 
+I=11   W=jam                 
 I=12   W=satu                
 I=13   W=!NULL               
 I=14   W=dua                 
@@ -79,7 +79,7 @@ I=75   W=Kamis
 I=76   W=Jumat               
 I=77   W=Sabtu               
 I=78   W=Minggu              
-I=79   W=JAM                 
+I=79   W=jam                 
 I=80   W=satu                
 I=81   W=!NULL               
 I=82   W=dua                 

@@ -6,4 +6,4 @@ $aktivitas = rapat | mengerjakan [tubes|tucil] | tenggat waktu | belanja | main;
 
 $subjek = himpunan | unit | komunitas | ML | NLP | RPP | TA;
 
-(SENT-START ($hari JAM $jam $aktivitas $subjek | $hari JAM $jam $aktivitas) SENT-END)
+(SENT-START ($hari jam $jam $aktivitas $subjek | $hari jam $jam $aktivitas) SENT-END)
