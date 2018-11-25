@@ -1,0 +1,40 @@
+WARNING: no script file maketriphones.ded
+WARNING: no script file dict.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+        dict        38         38         38         38
+    dict-tri        38         38         38         38
+
+38 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. b     :     7
+  2. eu    :    14
+  3. l     :    12
+  4. a     :    29
+  5. n     :    13
+  6. j     :     5
+  7. sp    :    36
+  8. s     :    13
+  9. d     :     2
+ 10. p     :     9
+ 11. u     :    18
+ 12. wa    :     1
+ 13. m     :    13
+ 14. t     :    15
+ 15. h     :     4
+ 16. i     :    11
+ 17. k     :     4
+ 18. o     :     1
+ 19. ng    :     3
+ 20. r     :     4
+ 21. g     :     3
+ 22. e     :     9
+ 23. sil   :     2
+ 24. c     :     1
+ 25. w     :     1
+
+Dictionary dict-tri created
