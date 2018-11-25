@@ -1,0 +1,358 @@
+HVite -A -D -T 1 -l * -o SWT -b sent-end -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words -S train.scp dict monophones1 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 ENORMALISE                 FALSE
+#                 NUMCEPS                       12
+#                 CEPFILTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND            MFCC_0_D_A
+
+Read 25 physical / 25 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0101.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end senin jam satu rapat himpunan sent-end  ==  [412 frames] -69.9148 [Ac=-28804.9 LM=0.0] (Act=6.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0102.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam dua mengerjakan tubes ml sent-end  ==  [542 frames] -70.1094 [Ac=-37999.3 LM=0.0] (Act=7.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0103.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam tiga mengerjakan tucil nlp sent-end  ==  [505 frames] -73.6227 [Ac=-37179.5 LM=0.0] (Act=7.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0104.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end kamis jam empat tenggat waktu rpp sent-end  ==  [542 frames] -70.8334 [Ac=-38391.7 LM=0.0] (Act=8.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0105.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end jumat jam lima belanja sent-end  ==  [394 frames] -69.7458 [Ac=-27479.9 LM=0.0] (Act=7.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0106.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end sabtu jam enam main sent-end  ==  [375 frames] -67.6721 [Ac=-25377.1 LM=0.0] (Act=7.4)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0107.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end minggu jam tujuh rapat unit sent-end  ==  [422 frames] -70.6137 [Ac=-29799.0 LM=0.0] (Act=6.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0108.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end senin jam delapan mengerjakan tubes nlp sent-end  ==  [617 frames] -69.1239 [Ac=-42649.5 LM=0.0] (Act=6.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0109.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end selasa jam sembilan mengerjakan ta sent-end  ==  [570 frames] -68.1541 [Ac=-38847.9 LM=0.0] (Act=6.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0110.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam sepuluh tenggat waktu ta sent-end  ==  [700 frames] -68.5998 [Ac=-48019.9 LM=0.0] (Act=7.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0111.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end kamis jam sebelas belanja sent-end  ==  [505 frames] -67.0127 [Ac=-33841.4 LM=0.0] (Act=5.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0112.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end jumat jam dua belas main sent-end  ==  [477 frames] -65.4685 [Ac=-31228.5 LM=0.0] (Act=5.9)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0113.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end sabtu jam tiga belas rapat komunitas sent-end  ==  [644 frames] -71.4660 [Ac=-46024.1 LM=0.0] (Act=6.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0114.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end minggu jam empat belas mengerjakan tubes sent-end  ==  [654 frames] -71.1925 [Ac=-46559.9 LM=0.0] (Act=6.3)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0115.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+sent-end senin jam lima belas mengerjakan tucil nlp sent-end  ==  [700 frames] -72.3248 [Ac=-50627.3 LM=0.0] (Act=7.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0116.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam enam belas tenggat waktu sent-end  ==  [579 frames] -67.8055 [Ac=-39259.4 LM=0.0] (Act=8.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0117.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end rabu jam tujuh belas belanja sent-end  ==  [533 frames] -69.9782 [Ac=-37298.4 LM=0.0] (Act=6.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0118.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end kamis jam delapan belas main sent-end  ==  [542 frames] -70.4828 [Ac=-38201.7 LM=0.0] (Act=5.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0119.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end jumat jam sembilan belas rapat himpunan sent-end  ==  [598 frames] -72.2547 [Ac=-43208.3 LM=0.0] (Act=6.4)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0120.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+sent-end sabtu jam dua puluh mengerjakan tubes rpp sent-end  ==  [672 frames] -73.3312 [Ac=-49278.6 LM=0.0] (Act=7.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0121.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+sent-end minggu jam dua puluh satu mengerjakan tucil ml sent-end  ==  [709 frames] -75.3064 [Ac=-53392.3 LM=0.0] (Act=8.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0122.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+sent-end senin jam dua puluh dua tenggat waktu rpp sent-end  ==  [719 frames] -70.8852 [Ac=-50966.5 LM=0.0] (Act=8.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0123.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam dua puluh tiga belanja sent-end  ==  [487 frames] -73.6386 [Ac=-35862.0 LM=0.0] (Act=8.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0124.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam dua puluh empat main sent-end  ==  [552 frames] -73.3077 [Ac=-40465.9 LM=0.0] (Act=8.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0125.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end kamis jam satu rapat komunitas sent-end  ==  [607 frames] -69.6406 [Ac=-42271.8 LM=0.0] (Act=5.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0126.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end jumat jam dua mengerjakan ml sent-end  ==  [542 frames] -68.6435 [Ac=-37204.8 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0127.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end sabtu jam tiga mengerjakan ta sent-end  ==  [505 frames] -68.8780 [Ac=-34783.4 LM=0.0] (Act=6.3)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0201.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end senin jam satu rapat himpunan sent-end  ==  [384 frames] -73.7875 [Ac=-28334.4 LM=0.0] (Act=7.0)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0202.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam dua mengerjakan tubes ml sent-end  ==  [394 frames] -76.0630 [Ac=-29968.8 LM=0.0] (Act=7.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0203.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam tiga mengerjakan tucil nlp sent-end  ==  [431 frames] -74.9274 [Ac=-32293.7 LM=0.0] (Act=7.0)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0204.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end kamis jam empat tenggat waktu rpp sent-end  ==  [375 frames] -74.7145 [Ac=-28017.9 LM=0.0] (Act=10.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0205.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end jumat jam lima belanja sent-end  ==  [282 frames] -70.8279 [Ac=-19973.5 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0206.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end sabtu jam enam main sent-end  ==  [282 frames] -71.5045 [Ac=-20164.3 LM=0.0] (Act=7.4)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0207.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end minggu jam tujuh rapat unit sent-end  ==  [310 frames] -74.0894 [Ac=-22967.7 LM=0.0] (Act=7.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0208.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end senin jam delapan mengerjakan tubes nlp sent-end  ==  [357 frames] -77.2139 [Ac=-27565.4 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0209.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end selasa jam sembilan mengerjakan ta sent-end  ==  [338 frames] -78.8092 [Ac=-26637.5 LM=0.0] (Act=7.3)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0210.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam sepuluh tenggat waktu ta sent-end  ==  [338 frames] -80.0850 [Ac=-27068.7 LM=0.0] (Act=9.3)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0211.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end kamis jam sebelas belanja sent-end  ==  [319 frames] -70.3899 [Ac=-22454.4 LM=0.0] (Act=5.6)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0212.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end jumat jam dua belas main sent-end  ==  [282 frames] -71.6182 [Ac=-20196.3 LM=0.0] (Act=6.4)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0213.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end sabtu jam tiga belas rapat komunitas sent-end  ==  [347 frames] -82.1640 [Ac=-28510.9 LM=0.0] (Act=7.3)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0214.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end minggu jam empat belas mengerjakan tubes sent-end  ==  [403 frames] -75.7409 [Ac=-30523.6 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0215.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+No tokens survived to final node of network at beam 250.0
+sent-end senin jam lima belas mengerjakan tucil nlp sent-end  ==  [375 frames] -82.1348 [Ac=-30800.5 LM=0.0] (Act=10.6)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0216.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam enam belas tenggat waktu sent-end  ==  [329 frames] -77.5357 [Ac=-25509.2 LM=0.0] (Act=8.9)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0217.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end rabu jam tujuh belas belanja sent-end  ==  [301 frames] -76.5520 [Ac=-23042.1 LM=0.0] (Act=7.4)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0218.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end kamis jam delapan belas main sent-end  ==  [301 frames] -73.0788 [Ac=-21996.7 LM=0.0] (Act=6.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0219.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end jumat jam sembilan belas rapat himpunan sent-end  ==  [366 frames] -75.6909 [Ac=-27702.9 LM=0.0] (Act=7.3)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0220.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+sent-end sabtu jam dua puluh mengerjakan tubes rpp sent-end  ==  [449 frames] -79.7088 [Ac=-35789.2 LM=0.0] (Act=8.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0221.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+sent-end minggu jam dua puluh satu mengerjakan tucil ml sent-end  ==  [487 frames] -80.6594 [Ac=-39281.1 LM=0.0] (Act=10.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0222.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+sent-end senin jam dua puluh dua tenggat waktu rpp sent-end  ==  [412 frames] -79.9405 [Ac=-32935.5 LM=0.0] (Act=12.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0223.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam dua puluh tiga belanja sent-end  ==  [338 frames] -78.0936 [Ac=-26395.6 LM=0.0] (Act=7.9)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0224.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam dua puluh empat main sent-end  ==  [329 frames] -74.2817 [Ac=-24438.7 LM=0.0] (Act=9.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0225.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end kamis jam satu rapat komunitas sent-end  ==  [329 frames] -76.7003 [Ac=-25234.4 LM=0.0] (Act=6.4)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0226.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end jumat jam dua mengerjakan ml sent-end  ==  [319 frames] -79.4064 [Ac=-25330.7 LM=0.0] (Act=9.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0227.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end sabtu jam tiga mengerjakan ta sent-end  ==  [384 frames] -73.9601 [Ac=-28400.7 LM=0.0] (Act=6.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0301.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end senin jam satu rapat himpunan sent-end  ==  [403 frames] -66.3168 [Ac=-26725.7 LM=0.0] (Act=6.6)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0302.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam dua mengerjakan tubes ml sent-end  ==  [440 frames] -73.0167 [Ac=-32127.3 LM=0.0] (Act=7.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0303.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam tiga mengerjakan tucil nlp sent-end  ==  [496 frames] -73.3395 [Ac=-36376.4 LM=0.0] (Act=7.6)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0304.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end kamis jam empat tenggat waktu rpp sent-end  ==  [357 frames] -73.9611 [Ac=-26404.1 LM=0.0] (Act=9.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0305.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end jumat jam lima belanja sent-end  ==  [273 frames] -73.5166 [Ac=-20070.0 LM=0.0] (Act=7.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0306.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end sabtu jam enam main sent-end  ==  [245 frames] -73.7179 [Ac=-18060.9 LM=0.0] (Act=7.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0307.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end minggu jam tujuh rapat unit sent-end  ==  [329 frames] -72.9160 [Ac=-23989.3 LM=0.0] (Act=7.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0308.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end senin jam delapan mengerjakan tubes nlp sent-end  ==  [440 frames] -74.9786 [Ac=-32990.6 LM=0.0] (Act=7.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0309.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end selasa jam sembilan mengerjakan ta sent-end  ==  [319 frames] -79.3493 [Ac=-25312.4 LM=0.0] (Act=8.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0310.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam sepuluh tenggat waktu ta sent-end  ==  [338 frames] -75.7551 [Ac=-25605.2 LM=0.0] (Act=9.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0311.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end kamis jam sebelas belanja sent-end  ==  [292 frames] -71.2941 [Ac=-20817.9 LM=0.0] (Act=6.0)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0312.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end jumat jam dua belas main sent-end  ==  [329 frames] -69.1417 [Ac=-22747.6 LM=0.0] (Act=6.6)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0313.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end sabtu jam tiga belas rapat komunitas sent-end  ==  [338 frames] -79.3758 [Ac=-26829.0 LM=0.0] (Act=7.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0314.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end minggu jam empat belas mengerjakan tubes sent-end  ==  [375 frames] -75.5863 [Ac=-28344.9 LM=0.0] (Act=8.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0315.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+sent-end senin jam lima belas mengerjakan tucil nlp sent-end  ==  [440 frames] -77.1481 [Ac=-33945.2 LM=0.0] (Act=8.3)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0316.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam enam belas tenggat waktu sent-end  ==  [301 frames] -79.3761 [Ac=-23892.2 LM=0.0] (Act=10.0)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0317.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end rabu jam tujuh belas belanja sent-end  ==  [319 frames] -77.6492 [Ac=-24770.1 LM=0.0] (Act=7.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0318.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end kamis jam delapan belas main sent-end  ==  [329 frames] -70.4161 [Ac=-23166.9 LM=0.0] (Act=6.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0319.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end jumat jam sembilan belas rapat himpunan sent-end  ==  [412 frames] -72.0813 [Ac=-29697.5 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0320.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+sent-end sabtu jam dua puluh mengerjakan tubes rpp sent-end  ==  [449 frames] -77.2791 [Ac=-34698.3 LM=0.0] (Act=8.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0321.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+sent-end minggu jam dua puluh satu mengerjakan tucil ml sent-end  ==  [477 frames] -75.7822 [Ac=-36148.1 LM=0.0] (Act=8.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0322.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+sent-end senin jam dua puluh dua tenggat waktu rpp sent-end  ==  [524 frames] -73.5070 [Ac=-38517.7 LM=0.0] (Act=10.6)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0323.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam dua puluh tiga belanja sent-end  ==  [403 frames] -73.2797 [Ac=-29531.7 LM=0.0] (Act=7.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0324.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam dua puluh empat main sent-end  ==  [357 frames] -71.0889 [Ac=-25378.7 LM=0.0] (Act=9.4)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0325.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end kamis jam satu rapat komunitas sent-end  ==  [357 frames] -75.1939 [Ac=-26844.2 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0326.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end jumat jam dua mengerjakan ml sent-end  ==  [384 frames] -71.1482 [Ac=-27320.9 LM=0.0] (Act=8.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0327.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end sabtu jam tiga mengerjakan ta sent-end  ==  [384 frames] -72.1653 [Ac=-27711.5 LM=0.0] (Act=8.0)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0401.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end senin jam satu rapat himpunan sent-end  ==  [514 frames] -71.3363 [Ac=-36666.9 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0402.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam dua mengerjakan tubes ml sent-end  ==  [468 frames] -68.3046 [Ac=-31966.5 LM=0.0] (Act=7.4)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0403.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam tiga mengerjakan tucil nlp sent-end  ==  [468 frames] -72.2268 [Ac=-33802.1 LM=0.0] (Act=6.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0404.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end kamis jam empat tenggat waktu rpp sent-end  ==  [487 frames] -66.9267 [Ac=-32593.3 LM=0.0] (Act=8.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0405.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end jumat jam lima belanja sent-end  ==  [338 frames] -70.1080 [Ac=-23696.5 LM=0.0] (Act=6.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0406.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end sabtu jam enam main sent-end  ==  [329 frames] -63.8040 [Ac=-20991.5 LM=0.0] (Act=6.6)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0407.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end minggu jam tujuh rapat unit sent-end  ==  [338 frames] -70.0066 [Ac=-23662.2 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0408.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end senin jam delapan mengerjakan tubes nlp sent-end  ==  [477 frames] -71.7189 [Ac=-34209.9 LM=0.0] (Act=6.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0409.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end selasa jam sembilan mengerjakan ta sent-end  ==  [440 frames] -70.3206 [Ac=-30941.1 LM=0.0] (Act=6.9)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0410.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam sepuluh tenggat waktu ta sent-end  ==  [403 frames] -72.5746 [Ac=-29247.6 LM=0.0] (Act=9.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0411.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+sent-end kamis jam sebelas belanja sent-end  ==  [394 frames] -67.3567 [Ac=-26538.5 LM=0.0] (Act=5.6)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0412.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end jumat jam dua belas main sent-end  ==  [403 frames] -66.0841 [Ac=-26631.9 LM=0.0] (Act=5.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0413.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end sabtu jam tiga belas rapat komunitas sent-end  ==  [384 frames] -75.6651 [Ac=-29055.4 LM=0.0] (Act=7.9)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0414.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end minggu jam empat belas mengerjakan tubes sent-end  ==  [468 frames] -70.4808 [Ac=-32985.0 LM=0.0] (Act=6.9)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0415.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+sent-end senin jam lima belas mengerjakan tucil nlp sent-end  ==  [524 frames] -71.9841 [Ac=-37719.6 LM=0.0] (Act=8.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0416.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam enam belas tenggat waktu sent-end  ==  [422 frames] -71.2468 [Ac=-30066.2 LM=0.0] (Act=9.0)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0417.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end rabu jam tujuh belas belanja sent-end  ==  [422 frames] -67.7003 [Ac=-28569.5 LM=0.0] (Act=5.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0418.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end kamis jam delapan belas main sent-end  ==  [440 frames] -63.6551 [Ac=-28008.3 LM=0.0] (Act=5.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0419.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end jumat jam sembilan belas rapat himpunan sent-end  ==  [449 frames] -71.8982 [Ac=-32282.3 LM=0.0] (Act=7.2)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0420.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+sent-end sabtu jam dua puluh mengerjakan tubes rpp sent-end  ==  [552 frames] -71.4576 [Ac=-39444.6 LM=0.0] (Act=7.5)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0421.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+sent-end minggu jam dua puluh satu mengerjakan tucil ml sent-end  ==  [524 frames] -74.4198 [Ac=-38996.0 LM=0.0] (Act=9.3)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0422.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+sent-end senin jam dua puluh dua tenggat waktu rpp sent-end  ==  [533 frames] -71.6279 [Ac=-38177.7 LM=0.0] (Act=10.7)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0423.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end selasa jam dua puluh tiga belanja sent-end  ==  [459 frames] -68.4643 [Ac=-31425.1 LM=0.0] (Act=7.8)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0424.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+sent-end rabu jam dua puluh empat main sent-end  ==  [487 frames] -65.0580 [Ac=-31683.3 LM=0.0] (Act=7.9)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0425.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end kamis jam satu rapat komunitas sent-end  ==  [440 frames] -65.9221 [Ac=-29005.7 LM=0.0] (Act=5.9)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0426.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end jumat jam dua mengerjakan ml sent-end  ==  [496 frames] -66.7934 [Ac=-33129.5 LM=0.0] (Act=7.1)
+Aligning File: /home/annsnrlzhr/Documents/TodoList-Speech-Recognition/train/S0427.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+sent-end sabtu jam tiga mengerjakan ta sent-end  ==  [477 frames] -65.7026 [Ac=-31340.1 LM=0.0] (Act=6.7)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  ENORMALISE                 FALSE
+                  NUMCEPS                       12
+#                 CEPFILTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND            MFCC_0_D_A
+
