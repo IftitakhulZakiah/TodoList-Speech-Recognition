@@ -2,15 +2,15 @@ VERSION=1.0
 N=131  L=213  
 I=0    W=!NULL               
 I=1    W=!NULL               
-I=2    W=SENT-START          
-I=3    W=Senin               
+I=2    W=sent-start          
+I=3    W=senin               
 I=4    W=!NULL               
-I=5    W=Selasa              
-I=6    W=Rabu                
-I=7    W=Kamis               
-I=8    W=Jumat               
-I=9    W=Sabtu               
-I=10   W=Minggu              
+I=5    W=selasa              
+I=6    W=rabu                
+I=7    W=kamis               
+I=8    W=jumat               
+I=9    W=sabtu               
+I=10   W=minggu              
 I=11   W=jam                 
 I=12   W=satu                
 I=13   W=!NULL               
@@ -67,18 +67,18 @@ I=63   W=himpunan
 I=64   W=!NULL               
 I=65   W=unit                
 I=66   W=komunitas           
-I=67   W=ML                  
-I=68   W=NLP                 
-I=69   W=RPP                 
-I=70   W=TA                  
-I=71   W=Senin               
+I=67   W=ml                  
+I=68   W=nlp                 
+I=69   W=rpp                 
+I=70   W=ta                  
+I=71   W=senin               
 I=72   W=!NULL               
-I=73   W=Selasa              
-I=74   W=Rabu                
-I=75   W=Kamis               
-I=76   W=Jumat               
-I=77   W=Sabtu               
-I=78   W=Minggu              
+I=73   W=selasa              
+I=74   W=rabu                
+I=75   W=kamis               
+I=76   W=jumat               
+I=77   W=sabtu               
+I=78   W=minggu              
 I=79   W=jam                 
 I=80   W=satu                
 I=81   W=!NULL               
@@ -130,7 +130,7 @@ I=126  W=tenggat
 I=127  W=waktu               
 I=128  W=belanja             
 I=129  W=main                
-I=130  W=SENT-END            
+I=130  W=sent-end            
 J=0     S=130  E=1    
 J=1     S=0    E=2    
 J=2     S=2    E=3    
