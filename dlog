@@ -1,29 +1,44 @@
-WARNING: no script file lexicon.sas.ded
+WARNING: no script file lexicon.ded
 Missing Words
 -------------
-BELANJA
-BELAS
-DELAPAN
-DUA
-EMPAT
-ENAM
-HIMPUNAN
-JAM
-JUMAT
-KOMUNITAS
+Jumat
 Kamis
-LIMA
-MAIN
-MENGERJAKAN
-MINGGU
-ML
-PULUH
-RAPAT
-RPP
-Rabu
-SABTU
-SATU
-SEBELAS
-SEMBILAN
-SEPULUH
-Selasa
+Minggu
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+     lexicon        38         35         38         35
+        dict        35         35         35         35
+
+38 words required, 3 missing
+
+New Phone Usage Counts
+---------------------
+  1. b     :     7
+  2. eu    :    14
+  3. l     :    12
+  4. a     :    27
+  5. n     :    13
+  6. j     :     4
+  7. sp    :    33
+  8. s     :    12
+  9. d     :     2
+ 10. p     :     9
+ 11. u     :    16
+ 12. wa    :     1
+ 13. m     :    10
+ 14. t     :    14
+ 15. h     :     4
+ 16. i     :     9
+ 17. k     :     3
+ 18. o     :     1
+ 19. ng    :     2
+ 20. r     :     4
+ 21. e     :     9
+ 22. sil   :     2
+ 23. g     :     2
+ 24. c     :     1
+ 25. w     :     1
+
+Dictionary dict created

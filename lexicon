@@ -1,37 +1,38 @@
-SENT-END []   sil
-SENT-START [] sil
-Senin s eu n i n sp
-Selasa s eu l a s a sp
-Rabu r a b u sp
-Kamis k a m i s sp
-Jumat	j u m a t sp
-Sabtu s a b t u sp
-Minggu m i ng g u sp
-JAM	j a m sp
-satu s a t u sp
-dua	d u wa sp
-tiga t i g a sp
-empat	eu m p a t sp
-lima l i m a sp
-enam eu n a m sp
-tujuh	t u j u h sp
-delapan	d eu l a p a n sp
-sembilan s eu m b i l a n sp
-sepuluh	s eu p u l u h sp
-puluh	p u l u h sp
-sebelas	s eu b eu l a s sp
-belas	b eu l a s sp
-rapat	r a p a t sp
-mengerjakan	m eu ng r j a k a n sp
-tubes	t u b eu s sp
-tucil	t u c i l sp
-tenggat waktu [TENGGAT WAKTU] t eu ng g a t sp w a k t u sp
-belanja	b eu l a n j a sp
-main m a i n sp
-himpunan h i m p u n a n sp
-unit u n i t sp
-komunitas k o m u n i t a s sp
-ML e m e l sp
-NLP e n e l p e sp
-RPP	e r p e p e sp
-TA t e a sp
+belanja	b eu l a n j a
+belas	b eu l a s
+delapan	d eu l a p a n
+dua	d u wa
+empat	eu m p a t
+enam eu n a m
+himpunan h i m p u n a n
+jam	j a m
+jumat	j u m a t
+kamis k a m i s
+komunitas k o m u n i t a s
+lima l i m a
+main m a i n
+mengerjakan	m eu ng r j a k a n
+minggu m i ng g u
+ml e m e l
+nlp e n e l p e
+puluh	p u l u h
+rabu r a b u
+rapat	r a p a t
+rpp	e r p e p e
+sabtu s a b t u
+satu s a t u
+sebelas	s eu b eu l a s
+selasa s eu l a s a
+sembilan s eu m b i l a n
+senin s eu n i n
+sent-end []   sil
+sent-start [] sil
+sepuluh	s eu p u l u h
+ta t e a
+tenggat t eu ng g a t
+tiga t i g a
+tubes	t u b eu s
+tucil	t u c i l
+tujuh	t u j u h
+unit u n i t
+waktu w a k t u
